@@ -1,0 +1,91 @@
+{
+    "users": [
+        {
+            "id": "usr_001",
+            "email": "student@smartcampus.edu",
+            "password": "Test1234!",
+            "fullName": "Ahmet Yılmaz",
+            "userType": "Student",
+            "role": "Student",
+            "isEmailVerified": true,
+            "isActive": true,
+            "profilePictureUrl": null,
+            "createdAt": "2024-01-15T10:30:00Z",
+            "student": {
+                "studentNumber": "2021001234",
+                "departmentId": 1,
+                "enrollmentDate": "2021-09-01T00:00:00Z"
+            }
+        },
+        {
+            "id": "usr_002",
+            "email": "faculty@smartcampus.edu",
+            "password": "Test1234!",
+            "fullName": "Prof. Dr. Mehmet Kaya",
+            "userType": "Faculty",
+            "role": "Faculty",
+            "isEmailVerified": true,
+            "isActive": true,
+            "profilePictureUrl": null,
+            "createdAt": "2023-09-01T08:00:00Z",
+            "faculty": {
+                "employeeNumber": "AKD2023001",
+                "title": "Profesör",
+                "departmentId": 1,
+                "officeLocation": "A Blok 305"
+            }
+        },
+        {
+            "id": "usr_003",
+            "email": "admin@smartcampus.edu",
+            "password": "Admin1234!",
+            "fullName": "Sistem Yöneticisi",
+            "userType": "Admin",
+            "role": "Admin",
+            "isEmailVerified": true,
+            "isActive": true,
+            "profilePictureUrl": null,
+            "createdAt": "2023-01-01T00:00:00Z"
+        },
+        {
+            "id": "usr_004",
+            "email": "unverified@smartcampus.edu",
+            "password": "Test1234!",
+            "fullName": "Onaysız Kullanıcı",
+            "userType": "Student",
+            "role": "Student",
+            "isEmailVerified": false,
+            "isActive": true,
+            "profilePictureUrl": null,
+            "createdAt": "2024-12-01T10:00:00Z",
+            "student": {
+                "studentNumber": "2024005678",
+                "departmentId": 2,
+                "enrollmentDate": "2024-09-01T00:00:00Z"
+            }
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Bilgisayar Mühendisliği",
+            "code": "BM",
+            "facultyName": "Mühendislik Fakültesi"
+        },
+        {
+            "id": 2,
+            "name": "Elektrik-Elektronik Mühendisliği",
+            "code": "EE",
+            "facultyName": "Mühendislik Fakültesi"
+        },
+        {
+            "id": 3,
+            "name": "İşletme",
+            "code": "ISL",
+            "facultyName": "İktisadi ve İdari Bilimler Fakültesi"
+        }
+    ],
+    "refreshTokens": [],
+    "emailVerificationTokens": [],
+    "passwordResetTokens": []
+}
